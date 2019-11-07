@@ -1,0 +1,29 @@
+.purptext {
+    color:#802bb1;
+}
+
+.yellowtext {
+    color:#ffe400;
+}
+
+nav {
+    background-color:#2d283e;
+    
+}
+.containernav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color:#ffe400;
+    font-size:1.5rem;
+}
+
+nav-link:hover{
+    color: #802bb1;
+}
+
+
+
