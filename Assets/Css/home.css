@@ -16,9 +16,18 @@ body {
     color: #ffe400;
 }
 
+.purpback{
+    background:#802bb1;
+}
+
+.yellowback {
+    background:#ffe400;
+}
+
 nav {
     background-color: #2d283e;
     position: fixed;
+    z-index: 1001;
 
 }
 
@@ -38,26 +47,34 @@ ul.nav a:hover {
     color: #802bb1 !important;
 }
 
-#paratext {
-    width:18em;;
-    background:#802bb1;
+#paratext{
+    width:18em;
     font-size:3rem;
-    display: flex;
-    justify-content: center;
+    color: #ffe400;
+    background:#802bb1;
+    text-align: center;
     position: relative;
-    top:400px;
-    left:500px;
-    color:#ffe400;
-    
-}
+    top: 400px;
+    left: 500px;
+    z-index:100;
+  }
 
 /*This is to create my parallax image with text*/
 .parallax {
     background-image: url("/Assets/Img/spiritShelf.jpg");
-    height: 1000px;
+    height: 900px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main {
+    margin-top:50px;
+}
