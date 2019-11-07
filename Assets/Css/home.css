@@ -1,46 +1,63 @@
-html, body {
-    margin:0px;
-    padding:0px;
-    height:100vh;
-    width:100vw;
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
     overflow-x: hidden;
+    /*<-- that is to cancel out the free space that shows on the right hand side*/
 }
 
 .purptext {
-    color:#802bb1;
+    color: #802bb1;
 }
 
 .yellowtext {
-    color:#ffe400;
+    color: #ffe400;
 }
 
 nav {
-    background-color:#2d283e;
-    
+    background-color: #2d283e;
+    position: fixed;
+
 }
-.containernav{
-    display:flex;
+
+/*to allow nav items to align next to each other*/
+.containernav {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .nav-link {
-    color:#ffe400;
-    font-size:1.5rem;
+    color: #ffe400;
+    font-size: 1.5rem;
 }
 
 ul.nav a:hover {
-    color: #802bb1 !important; 
+    color: #802bb1 !important;
 }
 
+#paratext {
+    width:18em;;
+    background:#802bb1;
+    font-size:3rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:400px;
+    left:500px;
+    color:#ffe400;
+    
+}
+
+/*This is to create my parallax image with text*/
 .parallax {
-    background-image:url("/Assets/Img/spiritShelf.jpg");
-    height:1000px;
+    background-image: url("/Assets/Img/spiritShelf.jpg");
+    height: 1000px;
     background-attachment: fixed;
     background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-
 
