@@ -47,6 +47,7 @@ ul.nav a:hover {
     color: #802bb1 !important;
 }
 
+/*my text within parallax div*/
 #paratext{
     width:18em;
     font-size:3rem;
@@ -59,7 +60,7 @@ ul.nav a:hover {
     z-index:100;
   }
 
-/*This is to create my parallax image with text*/
+/*This is to create my parallax background*/
 .parallax {
     background-image: url("/Assets/Img/spiritShelf.jpg");
     height: 900px;
