@@ -98,3 +98,31 @@ ul.nav a:hover {
 .rightfoot {
     font-size:1rem;
 }
+
+#font {
+    font-size: 1rem;
+}
+
+.radius50 {
+    background: #802BB1;
+    border-radius:50%;
+    font-size:2rem;
+    padding:10px;
+}
+
+.darkpurp {
+    color:#2d283e;
+}
+
+.top :hover {
+    color: #ffe400;
+    background-color: #2d283e;
+    text-decoration: none;
+}
+
+.footback {
+    background-color: #2d283e;
+    font-size:2rem;
+    width:100%;
+    color:#ffe400;
+}
