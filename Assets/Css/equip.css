@@ -54,3 +54,35 @@ nav-link:hover{
     background-size: cover;
 }
 
+.equip {
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.equip1 {
+    width:25%;
+    border:2px solid red;
+    padding: 10px;
+    background-color: #2D283E;
+    box-sizing: content-box;
+    display:inline-block;
+    text-align: center;
+    margin: 50px 25px 50px 50px;
+}
+
+.equip1 h2 {
+    text-align: center;
+    color:#802BB1;
+}
+
+.equip1 p {
+    color: #ffffff;
+    font-size:20px;
+    text-align: left;
+}
+
+equip
+
