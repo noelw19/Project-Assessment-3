@@ -16,12 +16,17 @@ body {
     color: #ffe400;
 }
 
-.purpback{
-    background:#802bb1;
+.purpback {
+    background: #802bb1;
 }
 
 .yellowback {
-    background:#ffe400;
+    background: #ffe400;
+}
+
+.footback {
+    background-color: #2d283e;
+    font-size:2rem;
 }
 
 nav {
@@ -48,17 +53,17 @@ ul.nav a:hover {
 }
 
 /*my text within parallax div*/
-#paratext{
-    width:18em;
-    font-size:3rem;
+#paratext {
+    width: 18em;
+    font-size: 3rem;
     color: #ffe400;
-    background:#802bb1;
-    text-align:center;
+    background: #802bb1;
+    text-align: center;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index:100;
+    z-index: 100;
 }
 
 /*This is to create my parallax background*/
@@ -77,6 +82,19 @@ ul.nav a:hover {
     align-items: center;
 }
 
-.Main {
-    margin-top:50px;
+.imgBw {
+    margin: 100px 100px 100px 100px;
+}
+
+/*.top {
+    width:auto;
+    height:20px;
+    background:#802bb1;
+    box-sizing:content-box;
+    border-radius:50%;
+    font-size:20px;
+}*/
+
+.rightfoot {
+    font-size:1rem;
 }
