@@ -6,9 +6,14 @@
     color:#ffe400;
 }
 
+ul.nav a:hover {
+    color: #802bb1 !important;
+}
+
 nav {
     background-color:#2d283e;
-    
+    position: fixed;
+    z-index: 1001; 
 }
 .containernav{
     display:flex;
@@ -23,5 +28,29 @@ nav {
 
 nav-link:hover{
     color: #802bb1;
+}
+
+/*my text within parallax div*/
+#paratext{
+    width:18em;
+    font-size:3rem;
+    color: #ffe400;
+    background:#802bb1;
+    text-align:center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:100;
+}
+
+/*This is to create my parallax background*/
+.parallax {
+    background-image: url("/Assets/Img/equip.jpg");
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 

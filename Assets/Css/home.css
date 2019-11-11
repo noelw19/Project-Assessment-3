@@ -53,12 +53,13 @@ ul.nav a:hover {
     font-size:3rem;
     color: #ffe400;
     background:#802bb1;
-    text-align: center;
+    text-align:center;
     position: relative;
-    top: 400px;
-    left: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index:100;
-  }
+}
 
 /*This is to create my parallax background*/
 .parallax {
