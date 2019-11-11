@@ -39,7 +39,8 @@ nav-link:hover{
 
 /*my text within parallax div*/
 #paratext{
-    width:18em;
+    width:100%;
+    height:auto;
     font-size:3rem;
     color: #ffe400;
     background:#802bb1;
@@ -133,5 +134,12 @@ nav-link:hover{
     color: #ffe400;
     background-color: #2d283e;
     text-decoration: none;
+}
+
+.mainimgs {
+    object-fit: fill;
+    width:100%;
+    height:auto;
+
 }
 

@@ -54,7 +54,8 @@ ul.nav a:hover {
 
 /*my text within parallax div*/
 #paratext {
-    width: 18em;
+    width: auto;
+    height: auto;
     font-size: 3rem;
     color: #ffe400;
     background: #802bb1;
