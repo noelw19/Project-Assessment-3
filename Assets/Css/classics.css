@@ -4,6 +4,10 @@ html, body {
     overflow-x: hidden;
 }
 
+body {
+    font-family:sans-serif;
+}
+
 .purptext {
     color:#802bb1;
 }
@@ -14,6 +18,8 @@ html, body {
 
 nav {
     background-color:#2d283e;
+    position: fixed;
+    z-index: 1001;
     
 }
 .containernav{
@@ -82,7 +88,7 @@ nav {
 
 .equip1 p {
     color: #ffffff;
-    font-size:20px;
+    font-size:15px;
     text-align: left;
 }
 
