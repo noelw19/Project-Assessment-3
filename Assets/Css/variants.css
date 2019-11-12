@@ -1,3 +1,17 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    /*<-- that is to cancel out the free space that shows on the right hand side*/
+}
+
+body {
+    font-family:sans-serif;
+}
+
 .purptext {
     color:#802bb1;
 }
@@ -8,6 +22,8 @@
 
 nav {
     background-color:#2d283e;
+    position: fixed;
+    z-index: 1001;
     
 }
 .containernav{
@@ -42,7 +58,7 @@ nav {
 
 /*This is to create my parallax background*/
 .parallax {
-    background-image: url("/Assets/Img/CocktailLine.jpg");
+    background-image: url("/Assets/Img/variantParallax.jpg");
     height: 900px;
     background-attachment: fixed;
     background-position: center;
@@ -76,7 +92,7 @@ nav {
 
 .equip1 p {
     color: #ffffff;
-    font-size:20px;
+    font-size:15px;
     text-align: left;
 }
 
@@ -121,14 +137,14 @@ nav {
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-top: auto;
+    margin-top: 30px;
     color:#ffe400;
 }
 
 .spiritHeader h1 {
     text-align: center;
-    width:10rem;
-    background-color:#802BB1;
+    width:100%;
+    background-color:#2e2842;
 }
 
 

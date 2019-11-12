@@ -8,6 +8,10 @@ body {
     /*<-- that is to cancel out the free space that shows on the right hand side*/
 }
 
+body {
+    font-family:sans-serif;
+}
+
 .purptext {
     color: #802bb1;
 }
@@ -22,10 +26,6 @@ body {
 
 .yellowback {
     background: #ffe400;
-}
-
-.headFont {
-    font-size: 1rem !important;
 }
 
 .footback {
