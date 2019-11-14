@@ -62,7 +62,7 @@ nav-link:hover{
 
 /*This is to create my parallax background*/
 .parallax {
-    background-image: url("/Assets/Img/equip.jpg");
+    background-image: url("../Img/equip.jpg");
     height: 900px;
     background-attachment: fixed;
     background-position: center;
