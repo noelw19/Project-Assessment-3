@@ -11,7 +11,7 @@ body {
 body {
     font-family:sans-serif;
 }
-
+/*these variables are for my text including color theme i have going*/
 .purptext {
     color:#802bb1;
 }
@@ -63,9 +63,9 @@ nav {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
-
+/*The equip variables are for the bootstrap cards, holding cocktail imgs and text*/
 .equip {
     margin-top:40px;
     margin-bottom:40px;
@@ -136,7 +136,7 @@ nav {
     height:auto;
 
 }
-
+/*spirit header is simply the header including name of spirit being used*/
 .spiritHeader {
     height:100px;
     width:100%;
