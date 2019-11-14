@@ -73,7 +73,7 @@ ul.nav a:hover {
 
 /*This is to create my parallax background*/
 .parallax {
-    background-image: url("../Assets/Img/spiritShelf.jpg");
+    background-image: url("../Img/spiritShelf.jpg");
     height: 900px;
     background-attachment: fixed;
     background-position: center;
