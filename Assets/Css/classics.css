@@ -58,7 +58,7 @@ nav {
 
 /*This is to create my parallax background*/
 .parallax {
-    background-image: url("/Assets/Img/CocktailLine.jpg");
+    background-image: url("../Img/CocktailLine.jpg");
     height: 900px;
     background-attachment: fixed;
     background-position: center;
