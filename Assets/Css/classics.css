@@ -96,6 +96,12 @@ nav {
     text-align: left;
 }
 
+.equip1 ul {
+    color: #ffffff;
+    font-size:15px;
+    text-align: left;
+}
+
 .footback {
     background-color: #2d283e;
     font-size:2rem;
